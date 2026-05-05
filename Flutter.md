@@ -8,8 +8,7 @@ VS Code（已有）
 Flutter SDK
 Git
 Android Studio（僅需 Android 模擬器，不需要用它寫程式）
-Xcode（如果你有 Mac，才能跑 iOS）
-
+IOS 可選Xcode（如果你有 Mac，才能跑 iOS）、GitHub Actionions、Codemagic
 
 ## 第一步：安裝 Git
 
@@ -73,9 +72,8 @@ iOS 注意事項（需要 Mac）
 
 Windows 無法編譯 iOS app，只能跑 Android
 如果你有 Mac，需要額外安裝 Xcode：
-
 bash  xcode-select --install
-  sudo xcodebuild -license
+sudo xcodebuild -license
 
 實體 iPhone 測試需要 Apple Developer 帳號
 
