@@ -23,11 +23,11 @@ travel_app/                        # 專案根目錄
 │       └── other_screens.dart     # ✅ 建立/加入/同步畫面
 ```
 
-建立步驟
+Winodws環境建立步驟
 1. 建立 Flutter 專案
 
 ```text
-bashflutter create travel_app
+flutter create travel_app
 cd travel_app
 ```
 
