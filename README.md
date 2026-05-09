@@ -34,19 +34,19 @@ cd travel_app
 2. 把提供的檔案複製進去
 把所有 .dart 檔案依照上方路徑放到對應位置，
 pubspec.yaml 直接取代原本的。
-3. 建立資料夾
 
+3. 建立資料夾
 ```text
-bashmkdir -p lib/models lib/services lib/screens/tabs assets/images assets/icons
+mkdir -p lib/models lib/services lib/screens/tabs assets/images assets/icons
 ```
 
 4. 安裝套件
-bashflutter pub get
+flutter pub get
 5. Android 權限設定
-在 android/app/src/main/AndroidManifest.xml 的 <manifest> 標籤內加入：
+在 android/app/src/main/AndroidManifest.xml 的<manifest> 標籤內加入：
 
 ```text
-xml<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
 <uses-permission android:name="android.permission.BLUETOOTH"/>
