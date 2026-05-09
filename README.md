@@ -35,7 +35,7 @@ cd travel_app
 把所有 .dart 檔案依照上方路徑放到對應位置，
 pubspec.yaml 直接取代原本的。
 
-3. 建立資料夾
+3. 建立資料夾結構: Data (數據層)、Logic (邏輯層)、UI (表現層)、Resources (資源)
 ```text
 mkdir -p lib/models lib/services lib/screens/tabs assets/images assets/icons
 ```
